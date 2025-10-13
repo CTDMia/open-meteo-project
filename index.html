@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Open Meteo Demo</title>
+	<link rel="stylesheet" href="index.css" />
+</head>
+<body>
+	<main>
+		<header>
+			<h1>Open Meteo — Current Weather Demo</h1>
+			<p>A tiny demo that fetches current weather from Open-Meteo (no API key required).</p>
+		</header>
+
+		<section id="weather">
+			<h2>Current Weather (Berlin)</h2>
+			<div id="weather-output" aria-live="polite"></div>
+			<div id="weather-error" role="status" aria-live="polite" style="color:#b00020; margin-top:0.5rem;"></div>
+		</section>
+
+		<footer>
+			<p>Open Meteo demo — data from <a href="https://open-meteo.com/" target="_blank" rel="noopener noreferrer">open-meteo.com</a></p>
+		</footer>
+	</main>
+
+	<script src="index.js"></script>
+</body>
+</html>
+
